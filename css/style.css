@@ -22,7 +22,7 @@ header button {
   border-radius: 20px;
   font-size: 20px;
 }
-.logo {
+.logo > div {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -32,7 +32,7 @@ header button {
   height: 100px;
 }
 .logo span {
-  font-size: 40px;
+  font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .top-search > input {
@@ -161,4 +161,15 @@ footer .footer-row ul {
   gap: 20px;
   color: white;
 }
-
+.mobile-menu {
+  display: none !important;
+}
+.active {
+  display: block;
+}
+header .close {
+  display: none;
+}
+.d-block {
+  display: block !important;
+}
